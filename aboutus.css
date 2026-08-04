@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #244C91;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+header{
+    background-color: #FFFEF4;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 1000;
+}
+
+.bolaheader{
+    position: relative;
+    left: 890px;
+    width: 150px;
+    height: 150px; 
+    background-color: #FFFEF4;
+    border-radius: 100%;
+}
+
+.logofoto{
+    position: relative;
+    left: 8px;
+    top: 8px;
+    width: 135px;
+    height: 135px;
+}
+
+.cabecalho>ul>li{
+    font-size: 15px;
+    display: inline-block;
+    text-transform: none;
+    position: relative;
+    bottom: 110px;
+    left: 50px;
+}
+
+.paginas{
+    text-decoration: none;
+    color: #244C91;
+    font-weight: bold;
+}
+
+li{
+    padding-right: 100px;
+}
+
+.cabecalho2{
+   width: 600px;
+   position: relative;
+   bottom: 145px;
+   left: 1170px;
+}
+
+input{
+    width: 600px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #244C91;
+    border: solid;
+    border: 20px;
+    border-color: #244C91;
+}
+
+input::placeholder{
+    color: #244C91;
+    opacity: 0.7;
+}
+
+.lupa{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 25px;
+    left: 570px;
+    opacity: 0.7;
+}
+
+.refs{
+    font-size: 12px;
+    position: relative;
+    left: -65.5px;
+    display: inline-block;
+    padding-left: 45px;
+    top: 9px;
+    color: #244C91;
+    font-weight: bold;
+}
+
+footer{
+    height: 30vh;
+    width: 100%;
+    background-color: #FEFDF5;
+}
+
+.foot{
+    height: 30vh;
+    width: 100%;
+    background-color: #FEFDF5;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-left: 100px;
+}
+
+.pagamento{
+    margin-right: 45px;
+}
+
+.rodTitle{
+    font-size: 16px;
+    color: #244C91;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.rodTittleIcon{
+    font-size: 16px;
+    color: #244C91;
+    text-align: center;
+}
+
+.pag{
+   height: 80px;
+   width: 350px;
+}
+
+.rss{
+   height: 60px;
+   width: 300px; 
+}
+
+.lista{
+ list-style: none;
+}
+
+.ulitens{
+ text-decoration: none;
+}
+
+main{
+    background-image: url(ChatGPT\ Image\ 2\ de\ jul.\ de\ 2026\,\ 08_06_16.png);
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.about{ 
+    height: 50vh;
+    width: 100%;
+    background-color: #80A7D3;
+    align-items: center;
+    justify-items: center;
+}
+
+.bluediv2{
+    height: 46vh;
+    width: 98%;
+    background-color: #244C91;
+    position: relative;
+    top: 20px;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 70px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-left: 190px;
+    padding-top: 90px;
+}
+
+h3{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 300;
+    padding-left: 190px;
+    padding-top: 40px;
+}
+
+.f2{
+    height: 238px;
+    width: 238px;
+    position: absolute;
+    right: 190px;
+    top: 50px;
+}
+
+.beneficios{
+    height: 50vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-left: 135px;
+    gap: 135px;
+}
+
+.b{
+    height: 270px;
+    width: 450px;
+    background-color: #FFFEF4;
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+}
+
+.imag1{
+    position: absolute;
+    height: 75px;width: 75px;
+    top: 1385px;left: 157px;
+}
+
+.imag2{
+    position: absolute;
+    height: 75px;width: 75px;
+    top: 1385px;left: 740px;
+}
+
+.imag3{
+    position: absolute;
+    height: 75px;width: 75px;
+    top: 1385px;left: 1320px;
+}
+
+h2{
+    padding-top: 40px;
+    padding-left: 110px;
+    font-size: 37px;
+    font-weight: bolder;
+    color: #244C91;
+}
+
+.h23{
+    padding-top: 40px;
+    padding-left: 95px;
+    font-size: 37px;
+    font-weight: bolder;
+    color: #244C91;
+}
+
+h4{
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+}
+

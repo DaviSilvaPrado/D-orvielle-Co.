@@ -1,0 +1,367 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #244C91;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+header{
+    background-color: #FFFEF4;
+    width: 100%;
+    height: 10vh;
+}
+
+.bolaheader{
+    position: relative;
+    left: 890px;
+    width: 150px;
+    height: 150px; 
+    background-color: #FFFEF4;
+    border-radius: 100%;
+    z-index: 10;
+}
+
+.logofoto{
+    position: relative;
+    left: 8px;
+    top: 8px;
+    width: 135px;
+    height: 135px;
+    z-index: 20;
+}
+
+.cabecalho>ul>li{
+    font-size: 15px;
+    display: inline-block;
+    text-transform: none;
+    position: relative;
+    bottom: 110px;
+    left: 50px;
+}
+
+.paginas{
+    text-decoration: none;
+    color: #244C91;
+    font-weight: bold;
+}
+
+li{
+    padding-right: 100px;
+}
+
+.cabecalho2{
+   width: 600px;
+   position: relative;
+   bottom: 145px;
+   left: 1170px;
+}
+
+input{
+    width: 600px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #244C91;
+    border: solid;
+    border: 20px;
+    border-color: #244C91;
+}
+
+input::placeholder{
+    color: #244C91;
+    opacity: 0.7;
+}
+
+.lupa{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 25px;
+    left: 570px;
+    opacity: 0.7;
+}
+
+.refs{
+    font-size: 12px;
+    position: relative;
+    left: -65.5px;
+    display: inline-block;
+    padding-left: 45px;
+    top: 9px;
+    color: #244C91;
+    font-weight: bold;
+}
+
+footer{
+    height: 30vh;
+    width: 100%;
+    background-color: #FEFDF5;
+}
+
+.foot{
+    height: 30vh;
+    width: 100%;
+    background-color: #FEFDF5;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-left: 100px;
+}
+
+.pagamento{
+    margin-right: 45px;
+}
+
+.rodTitle{
+    font-size: 16px;
+    color: #244C91;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.rodTittleIcon{
+    font-size: 16px;
+    color: #244C91;
+    text-align: center;
+}
+
+.pag{
+   height: 80px;
+   width: 350px;
+}
+
+.rss{
+   height: 60px;
+   width: 300px; 
+}
+
+.lista{
+ list-style: none;
+}
+
+.ulitens{
+ text-decoration: none;
+}
+
+section{
+    background-image: url(estampa.jpeg);
+    height: 180vh;
+    width: 100%;
+    z-index: -2;
+}
+
+.resultado{
+    background-color: #244C91;
+    height: 250px;
+    width: 90%;
+    position: relative;
+    top: 40px;
+    left: 5%;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.pt1{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.pt1 h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.pt1 p{
+    font-size: 22px;
+    color: #E4E9F1;
+    padding-top: 10px;
+}
+
+.resul{
+    font-size: 18px;
+    color: #80A7D3;
+}
+
+.pt2{
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: 50px;
+}
+
+.pt2 p{
+    font-size: 22px;
+    color: #E4E9F1;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-left: 1400px;
+}
+
+.pt2 select{
+    width: 205px;
+    height: 38px;
+    font-size: 22px;
+    background-color: #244C91;
+    color: #E4E9F1;
+    border: solid;
+    border: 1px;
+    border: 1px solid rgba(255, 252, 229, 0.474);
+    border-radius: 5px;
+    font-family: "Instrument Sans", sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+     cursor: pointer;
+}
+
+.pt2 select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("down-chevron.png");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 20px;
+}
+
+.pt2 option {
+    background-color: #E4E9F1;
+    color: #244C91;
+    font-size: 15px;
+}
+
+
+main {
+    height: 800px;
+    width: 400px;
+    font-family: "Instrument Sans", sans-serif;
+    background-color: #ffffff;
+    position: relative;
+    top: 80px;
+    left: 5%;
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-right: 35px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 8px;
+}
+
+.filtro{
+    margin-bottom: 30px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    font-size: 16px; 
+    margin-bottom: 12px;
+    cursor: pointer;
+    color: black;
+    user-select: none;
+}
+
+.box input{
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.quadrado{
+    height: 16px;
+    width: 16px;
+    border: 2px solid rgba(36, 76, 145, 0.7); 
+    border-radius: 3px;
+    margin-right: 12px;
+    display: inline-block;
+    background-color: #ffffff;
+    transition: all 0.2s ease;
+}
+
+.box input:checked ~ .quadrado{
+    background-color: #244C91;
+    border-color: #244C91;
+}
+
+.faixa{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.linha{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 4px;
+    background-color: #244C91;
+    border-radius: 2px;
+    z-index: 1;
+}
+
+.bola{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    margin: 0;
+    z-index: 2;
+    pointer-events: none; 
+}
+
+.bola::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #244C91;
+    cursor: pointer;
+    pointer-events: auto; 
+}
+
+.bola::-moz-range-thumb {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #244C91;
+    cursor: pointer;
+    border: none;
+    pointer-events: auto;
+}
+
+.valores{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: 15px;
+    color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 370px;
+    height: 453px;
+    padding: 15px;
+}

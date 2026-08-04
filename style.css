@@ -1,0 +1,414 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #244C91;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+header{
+    background-color: #FFFEF4;
+    width: 100%;
+    height: 10vh;
+}
+
+.bolaheader{
+    position: relative;
+    left: 890px;
+    width: 150px;
+    height: 150px; 
+    background-color: #FFFEF4;
+    border-radius: 100%;
+}
+
+.logofoto{
+    position: relative;
+    left: 8px;
+    top: 8px;
+    width: 135px;
+    height: 135px;
+}
+
+.cabecalho>ul>li{
+    font-size: 15px;
+    display: inline-block;
+    text-transform: none;
+    position: relative;
+    bottom: 110px;
+    left: 50px;
+}
+
+.paginas{
+    text-decoration: none;
+    color: #244C91;
+    font-weight: bold;
+}
+
+li{
+    padding-right: 100px;
+}
+
+.cabecalho2{
+   width: 600px;
+   position: relative;
+   bottom: 145px;
+   left: 1170px;
+}
+
+input{
+    width: 600px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #244C91;
+    border: solid;
+    border: 20px;
+    border-color: #244C91;
+}
+
+input::placeholder{
+    color: #244C91;
+    opacity: 0.7;
+}
+
+.lupa{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 25px;
+    left: 570px;
+    opacity: 0.7;
+}
+
+.refs{
+    font-size: 12px;
+    position: relative;
+    left: -65.5px;
+    display: inline-block;
+    padding-left: 45px;
+    top: 9px;
+    color: #244C91;
+    font-weight: bold;
+}
+
+main{
+    background-image: url(ChatGPT\ Image\ 2\ de\ jul.\ de\ 2026\,\ 08_06_16.png);
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.destaques{
+    height: 70vh;
+    width: 100%;
+    background-color: #80A7D3;
+    align-items: center;
+    justify-items: center;
+}
+
+.bluediv{
+    height: 66vh;
+    width: 98%;
+    background-color: #244C91;
+    position: relative;
+    top: 20px;
+    border-radius: 20px;
+}
+
+.f1{
+   position: absolute;
+   left: 100px;
+   bottom: 460px;
+   z-index: 10;
+}
+
+.f3{
+    height: 190px;
+    width: 210px;
+   position: absolute;
+   bottom: -30px;
+   left: 900px;
+   z-index: 2;
+}
+.f5{
+    height: 140px;
+    width: 160px;
+   position: absolute;
+   bottom: -32px;
+   left: 954px;
+   z-index: 10;
+}
+
+.f4{
+   position: absolute;
+   right: 75px;
+   top: 150px;
+   z-index: 10;
+}
+
+.maingrid{
+    height: 300px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    position: relative;
+    right: 48px;
+    bottom: 40px;
+}
+
+.dmaingrid{
+    width: 390px;
+    height: 473px;
+    background-color: #80A7D3;
+    margin: 75px;
+    position: relative;
+    left: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+ 
+.dmaingrid2{
+    width: 335px;
+    height: 425px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 20px;
+    z-index: 5;
+}
+
+.destaquetexto{
+    color: #ffffff;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 50px;
+    text-align: center; 
+    padding-top: 20px;
+}
+
+.invictus{
+    width: 200px;
+    height: 200px;
+}
+
+.perfum1{
+    font-weight: bolder;
+    font-family: "Instrument Sans", sans-serif;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+.desc{
+    font-size: 12px;
+    font-family: "Instrument Sans", sans-serif;
+    padding-left: 15px;
+}
+
+.prc{
+    font-family: "Instrument Sans", sans-serif;
+    padding-left: 30px;
+}
+
+.prcPromo{
+
+    font-family: "Instrument Sans", sans-serif;
+    padding-left: 15px;
+}
+
+.parcelas{
+    font-family: "Instrument Sans", sans-serif;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.verm{
+    height: 40px;
+    width: 335px;
+    margin: 20px;
+    position: relative;
+    right: 20px;
+    bottom: 23px;
+    background-color: #F7E179;
+    color: #1A2614;
+    font-weight: 565;
+    border: none;
+    font-family: "Instrument Serif", serif;
+    font-size: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.verm:hover{
+    background-color: #778D58;
+    color: #F7E179;
+    transition: 0.5s;
+}
+
+.invictus{
+    position: relative;
+    left: 65px;
+}
+
+.estampa{
+    height: 110vh;
+    width: 100%;
+    background-image: url(estampa.jpeg);
+    align-items: center;
+    justify-items: center;
+}
+
+.maingridE{
+    height: 300px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    position: relative;
+    right: 150px;
+    bottom: 40px;
+}
+
+ 
+.dmaingrid2E{
+    width: 335px;
+    height: 425px;
+    background-color: #ffffff;
+    position: relative;
+    margin: 55px;
+    position: relative;
+    right: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.price2{
+    position: relative;
+    top: 10px;
+}
+
+.invictusE{
+    position: relative;
+    top: 30px;
+    left: 38px;
+    width: 200px;
+    height: 200px;
+}
+
+.perfume{
+    font-weight: bolder;
+    font-family: "Instrument Sans", sans-serif;
+    padding-left: 15px;
+    padding-top: 35px;
+    font-size: 30px;
+}
+
+.desc{
+    font-size: 12px;
+    font-family: "Instrument Sans", sans-serif;
+    padding-left: 15px;
+}
+
+.prc{
+    font-size: 20px;
+    font-family: "Instrument Sans", sans-serif;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.prcPromo{
+    font-size: 35px;
+    font-family: "Instrument Sans", sans-serif;
+    padding-left: 15px;
+}
+
+.parcelas{
+    font-size: 20px;
+    font-family: "Instrument Sans", sans-serif;
+    padding-left: 15px;
+}
+
+.comp{
+    height: 40px;
+    width: 205px;
+    margin: 20px;
+    position: relative;
+    left: 12px;
+    bottom:12px;
+    background-color: #778D58;
+    color: #1A2614;
+    font-weight: 565;
+    border: none;
+    font-family: "Instrument Serif", serif;
+    font-size: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.comp:hover{
+    background-color: #F7E179;
+    color: #1A2614;
+    transition: 0.5s;
+}
+
+.margemcima{
+    height: 18px;
+    width: 100%;
+    background-color: #80A7D3;
+}
+
+footer{
+    height: 30vh;
+    width: 100%;
+    background-color: #FEFDF5;
+}
+
+.foot{
+    height: 30vh;
+    width: 100%;
+    background-color: #FEFDF5;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-left: 100px;
+}
+
+.pagamento{
+    margin-right: 45px;
+}
+
+.rodTitle{
+    font-size: 16px;
+    color: #244C91;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.rodTittleIcon{
+    font-size: 16px;
+    color: #244C91;
+    text-align: center;
+}
+
+.pag{
+   height: 80px;
+   width: 350px;
+}
+
+.rss{
+   height: 60px;
+   width: 300px; 
+}
+
+.lista{
+ list-style: none;
+}
+
+.ulitens{
+ text-decoration: none;
+}
